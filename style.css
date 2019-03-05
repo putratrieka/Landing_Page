@@ -1,0 +1,178 @@
+*{
+
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 100%;
+	margin: auto;
+	background: #eee;
+	font-family: 'Lato', sans-serif;
+}
+#body-area{
+	width: 1366px;
+	background: #fafafa;
+	margin: auto;
+	background-color: #eee;
+	font-family: 'Lato', sans-serif;
+}
+#header{
+
+	position: fixed;
+	width: 1366px;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    align-items: left;
+    background: #eee;
+    overflow: visible;
+    z-index: 999;
+}
+#home{
+	margin: auto;
+	width: 1200px;
+	height:500px;
+	background-image: url(https://www.condorferries.co.uk/media/2446/taking-your-bike-1.jpg);
+	background-repeat: none;
+}
+#header-img{
+	width: 30px;
+	height: 30px;
+}
+
+#hero{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    padding-top: 220px;
+    margin-top: 50px;
+    
+   
+ }
+ #hero p{
+ 	width: 500px;
+	display: block;
+	left: 480px;
+	 }
+#form{
+	width: 300px;
+	display: block;
+	left: 480px;
+	padding:10px;
+}
+#category{
+	position: relative;
+	z-index: 99;
+	margin: auto;
+    margin-bottom: 35px;
+    color: #5e5e5e;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    font-family: sans-serif;
+    text-align: center;
+}
+#category h2{
+	padding-top: 20px;
+	margin: auto;
+    margin-bottom: 35px;
+    color: #5e5e5e;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    font-style: sans-serif;
+}
+.cat-container{
+	margin: auto;
+	width: 85%;
+	height: auto;
+
+}
+#cat-box a{
+	text-decoration: none;
+	color: white;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    font-style: sans-serif;
+}
+#cat-box span{
+	width: 263px;
+	height: 35px;
+	display: block;
+	background: rgba(12,186,188,0.6);
+	bottom: 0px;
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    font-style: sans-serif;
+} 
+#about{
+	margin: auto;
+	width: 1200px;
+	height:400px;
+	background: #2d3f4f;
+}
+#left-side{
+	width: 60%;
+	height: 80%;
+	float: left;
+	align-items: center;
+}
+#right-side{
+	width: 38%;
+	height: 100%;
+	float: right;
+	margin-right: 10px;
+	align-items: center;
+	color: white;
+}
+#right-side h2{
+	padding-top: 5px;
+	color: white;
+    font-style: sans-serif;
+}
+#right-side p{
+	color: white;
+    font-style: sans-serif;
+}
+.sosial-link a{
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-style: sans-serif;
+}
+@media screen and (max-width: 1024px) {
+	body{
+		width: 768px;
+	}
+
+   	#home{
+		width: 768px;
+		height:315px;
+		
+		}
+	#about{
+	width: 768px;}
+	#cat-box span{
+	width: 147px;
+	height: 20px;
+	font-size: 15px;
+	}
+	#cat-box img{
+		width: 147px;
+	}
+	#right-side p{
+		font-size: 12px;
+	color: white;
+    font-style: sans-serif;
+	}
+}
